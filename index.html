@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="main.jpg" alt="">
+            <main>
+                <h1>
+                    Tip Calculator
+                </h1>
+                <div class="innerbox">
+                <div class="billamnt">
+                    <p>Bill Amount</p>
+                    <input type="number" name="billamnt" id="billAmnt">
+                </div>
+                <div class="perctip">
+                    <p>Percentage Tip</p>
+                    <input type="number" name="perctip" id="percTip">
+                </div>
+                
+                <div class="tipamnt">
+                    <p>Tip Amount</p>
+                    <input type="number" name="tipAmnt" id="tipAmnt">
+                </div>
+
+                <div class="totalamnt">
+                    <p>Total Amount</p>
+                    <input type="number" name="totalAmnt" id="totalAmnt">
+                </div>
+                <button id="btn" onclick="calculate()">Calculate Tip Amount</button>
+                <p id="warn"></p>
+            </div>
+            </main>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
